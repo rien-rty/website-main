@@ -1,3 +1,6 @@
 [submodule "plugin"]
 	path = private/js/RTY/Plugin
 	url = ../plugin
+[submodule "util"]
+	path = private/js/RTY/Util
+	url = ../util
