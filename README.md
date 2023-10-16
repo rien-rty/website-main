@@ -21,9 +21,9 @@ To get started, clone the repository with
 
 ```sh
 # over HTTP with personal access tokens
-git clone https://github.com/rien-rty/website-main.git
+git clone --recurse-submodules https://github.com/rien-rty/website-main.git
 # over SSH with SSH keys
-git clone git@github.com:rien-rty/website-main.git
+git clone --recurse-submodules git@github.com:rien-rty/website-main.git
 ```
 
 Note: You can always check the status of Git with `git status`.
