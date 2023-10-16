@@ -62,5 +62,4 @@ I've now set it up so that you can't directly push to main and a pull request ne
 
 ## Submodules
 
-To make changes in a submodule, you just have to go into the directory the submodule is nested in, and use git as if you were in the root of a project, because you are.
-
+To make changes in a submodule, you just have to go into the directory the submodule is nested in, and use git as if you were in the root of a project, because you are. One thing to note is that by making changes in a submodule (creating a branch, commiting things) will mark the folder as altered with the HEAD pointing to one of the latest commit. Committing these changes to the main repo will also set the current commit for that branch. This is why the submodule "plugin" will be checked out in the "changes" branch.
