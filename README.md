@@ -26,4 +26,41 @@ git clone https://github.com/rien-rty/website-main.git
 git clone git@github.com:rien-rty/website-main.git
 ```
 
+Note: You can always check the status of Git with `git status`.
+
+## Create a branch
+
+Create a new branch to work in and switch to it with
+
+```sh
+git checkout -b <branch>
+```
+
+The option `-b` is to create a new branch. This is the equivalent as 
+
+```sh
+git branch <branch>
+git checkout <branch>
+```
+
+Make some changes and commit them to the remote with
+
+```sh
+# stage your changes
+git add *
+# commit your changes
+git commit -m "commit message"
+# upload your changes to the remote
+git push origin <branch>
+```
+
+## Pull requests
+
+Once you've made some changes and pushed them to a remote branch, you can create a pull request in GitHub for it to be merged to the main branch. Once a pull request is created, someone can review it and leave comments on the whole pull request, on a specific file, or on a specific change in the file. I've already created a pull request for the "changes" branch that you can review.
+
+I've now set it up so that you can't directly push to main and a pull request needs to be reviewed by at lease one person before it can be merged into main.
+
+## Submodules
+
+To make changes in a submodule, you just have to go into the directory the submodule is nested in, and use git as if you were in the root of a project, because you are.
 
