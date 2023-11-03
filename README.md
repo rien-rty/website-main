@@ -2,6 +2,12 @@
 
 This repository will walk you through how to use GitHub with Git Submodules.
 
+For a video introduction to Git and GitHub, I recommend these videos:
+ - [Learn Git in 15 minutes - Colt Steele](https://www.youtube.com/watch?v=USjZcfj8yxE)
+ - [Learn Github in 20 minutes - Colt Steele](https://www.youtube.com/watch?v=nhNq2kIvi9s)
+
+Or if you prefer to read, go check out the [Quickstart from GitHub](https://docs.github.com/en/get-started/quickstart/hello-world).
+
 ## Create a GitHub account
 
 To do certain actions like push your local changes to the repo you need a GitHub account. GitHub doesn't like simple username+password logins since it's too insecure, so you'll need to setup [Personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) or [SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh). I have no experience with personal access tokens, so I'll be using SSH keys.
